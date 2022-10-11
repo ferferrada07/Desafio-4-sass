@@ -1,0 +1,32 @@
+
+$font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;
+
+$primary: rgb(36, 36, 36);
+$secondary: rgb(36, 36, 36);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.seccion{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn{
+    background-color: rgb(193, 83, 160);
+    color: white;
+    font-size: 100%;
+}
+.card-text{
+    font-size: 100%;
+}
+
+.card-title{
+    color: rgb(193, 83, 160);
+    font-size: 150%;
+}
+.card-black{
+    @extend .card;
+    color: white;
+    width: 40%;
+}
